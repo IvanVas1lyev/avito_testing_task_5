@@ -1,0 +1,25 @@
+(venv) PS C:\Users\Ivan\PycharmProjects\testing5> python -m pytest main.py                           
+================================================================================= test session starts =================================================================================
+platform win32 -- Python 3.9.13, pytest-7.1.3, pluggy-1.0.0
+rootdir: C:\Users\Ivan\PycharmProjects\testing5
+plugins: cov-4.0.0                             
+collected 3 items
+
+main.py ...                                                                                                                                                                      [100%]
+
+================================================================================== 3 passed in 0.06s ================================================================================== 
+
+(venv) PS C:\Users\Ivan\PycharmProjects\testing5> python -m pytest main.py  --cov . --cov-report html
+================================================================================= test session starts =================================================================================
+platform win32 -- Python 3.9.13, pytest-7.1.3, pluggy-1.0.0
+rootdir: C:\Users\Ivan\PycharmProjects\testing5
+plugins: cov-4.0.0
+collected 3 items
+
+main.py ...                                                                                                                                                                      [100%] 
+
+---------- coverage: platform win32, python 3.9.13-final-0 -----------
+Coverage HTML written to dir htmlcov
+
+
+================================================================================== 3 passed in 0.14s ================================================================================== 
